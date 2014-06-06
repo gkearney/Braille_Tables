@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>381</string>
+	<key>AMApplicationVersion</key>
+	<string>2.4</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>defaultLocation</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<true/>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+					<key>granularity</key>
+					<dict/>
+					<key>multipleSelection</key>
+					<dict/>
+					<key>promptMessage</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Finder Items.action</string>
+				<key>ActionName</key>
+				<string>Ask for Finder Items</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>defaultLocation</key>
+					<string>~/Desktop</string>
+					<key>granularity</key>
+					<integer>0</integer>
+					<key>multipleSelection</key>
+					<false/>
+					<key>promptMessage</key>
+					<string>Choose a Finder Item:</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.AskForFinderItems</string>
+				<key>CFBundleVersion</key>
+				<string>1.2.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForFinderItemsAction</string>
+				<key>IgnoresInput</key>
+				<true/>
+				<key>InputUUID</key>
+				<string>94C07002-34E8-495F-A5E3-157ADCBEB42B</string>
+				<key>Keywords</key>
+				<array>
+					<string>Find</string>
+					<string>Item</string>
+					<string>File</string>
+					<string>Folder</string>
+					<string>Ask</string>
+					<string>Choose</string>
+					<string>Prompt</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>7AEC12EF-36A8-4035-AC68-700705BDB7C6</string>
+				<key>UUID</key>
+				<string>C55185CB-12B8-4933-9344-B2E42D1CBCDF</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>multipleSelection</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>granularity</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string>~/Desktop</string>
+						<key>name</key>
+						<string>defaultLocation</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>Choose a Finder Item:</string>
+						<key>name</key>
+						<string>promptMessage</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>408.500000:668.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		set the homepath to (path to me)	set the cfgfile to POSIX path of homepath &amp; "Contents/Resouces/BrailleBlaster/programData/liblouisutdml/lbu_files/tmp.cfg"	--set the cfgfile to "Contents/Resouces/BrailleBlaster/programData/liblouisutdml/lbu_files/tmp.cfg"		set crlf to (ASCII character 13) &amp; (ASCII character 10)	set theCfg to "# This file contains all possible configuration settings, with sample # values, where appropriate. It  is used by the file2brl command-line # interface if no configuration file is given. It is also part of the # documentation.outputFormat	interpoint no	emphasis all	translation	compbrlTable en-us-comp8.ctb	mathtextTable en-us-g2.ctb	mathexprTable nemeth.ctb	editTable nemeth_edit.ctb	"		(*	choose from list {"UEB Contracted", "UEB Uncontracted", "BANA Contracted", "BANA Uncontracted"} with prompt "Braille transation table to use:" default items {"UEB Contracted"}	set thetable to the result as text		if thetable is "UEB Contracted" then		set thetable to "literaryTextTable en-ueb-g2.ctb"	else if thetable is "UEB Uncontracted" then		set thetable to "literaryTextTable en-ueb-g1.ctb"	else if thetable is "BANA Contracted" then		set thetable to "literaryTextTable en-us-g2.ctb"	else if thetable is "BANA Uncontracted" then		set thetable to "literaryTextTable en-us-g1.ctb"	else if thetable is "Cherokee" then		set thetable to "literaryTextTable chr-us-g1.ctb"	end if	*)		set thetable to "literaryTextTable chr-us-g1.ctb"		try		display dialog "number of cell per line (whole numbers only):" default answer "40" buttons {"OK"}		set cpl to the text returned of the result as integer	on error		display dialog "number of cell per line (whole numbers only):" default answer "40" buttons {"OK"}		set cpl to the text returned of the result as integer	end try	set cpl to "cellsPerLine " &amp; cpl		try		display dialog "number of lines per page (whole numbers only):" default answer "28" buttons {"OK"}		set lpp to the text returned of the result	on error		display dialog "number of lines per page (whole numbers only):" default answer "28" buttons {"OK"}		set lpp to the text returned of the result	end try	set lpp to "linesPerPage " &amp; lpp			set theCfg to theCfg &amp; crlf &amp; thetable &amp; crlf &amp; cpl &amp; crlf &amp; lpp				set x to do shell script "echo " &amp; the quoted form of theCfg &amp; " &gt; " &amp; the quoted form of cfgfile	return x		set brf to choose file name with prompt "Save Braille file as:" default name "braille.brf"	set brf_file to the POSIX path of brf	set brf_file to the quoted form of brf_file				set tmp1 to first item of input	set infile to the POSIX path of tmp1	set infile to the quoted form of infile	-- do shell script "rm -f /tmp/braille.html"	--do shell script homepath &amp; "/Contents/pdftohtml -noframes " &amp; pdf_file &amp; " /tmp/braille.html"		do shell script "java -jar " &amp; homepath &amp; "Contents/BrailleBlaster/BrailleBlaster.jar -nogui translate -f tmp.cfg -t -r -p " &amp; infile &amp; " " &amp; brf_file			return inputend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>8626815F-3F6C-4BE4-A88B-B8EAE980F735</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>A0E51DE8-0509-4660-B320-B907C0C59C34</string>
+				<key>UUID</key>
+				<string>31DBD674-C253-49FB-9B5A-E388A069C715</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>408.500000:513.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>C3D58DB5-D9EE-40A1-81EE-487DED4921B6</key>
+		<dict>
+			<key>from</key>
+			<string>C55185CB-12B8-4933-9344-B2E42D1CBCDF - C55185CB-12B8-4933-9344-B2E42D1CBCDF</string>
+			<key>to</key>
+			<string>31DBD674-C253-49FB-9B5A-E388A069C715 - 31DBD674-C253-49FB-9B5A-E388A069C715</string>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>11608242-40BB-45C6-8055-75B62987DD96</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Text</string>
+			<key>name</key>
+			<string>pdf</string>
+			<key>value</key>
+			<string>Text</string>
+		</dict>
+	</array>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>

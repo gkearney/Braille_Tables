@@ -1,0 +1,1 @@
+java -jar /Applications/BrailleBlaster/brailleblaster.jar -nogui translate  -f /Applications/BrailleBlaster/programData/liblouisutdml/lbu_files/ink.cfg '/Applications/BrailleBlaster/ink_test.txt' '/Applications/BrailleBlaster/ink_test.txt.brl'

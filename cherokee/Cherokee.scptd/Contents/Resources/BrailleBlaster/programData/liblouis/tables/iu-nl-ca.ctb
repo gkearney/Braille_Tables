@@ -1,0 +1,31 @@
+# liblouis: Inuktitut Braille Table
+#
+# Based on the braille contraction modules in BRLTTY
+#
+# Original copyright (C) 1995-2004 by The BRLTTY Team. 
+# All rights reserved.
+#
+# liblouis copyright 2004 by 
+# ViewPlus Technologies, inc.,  www.viewplustech.com
+# and
+# Computers to Help People, Inc., www.chpi.org  
+# All rights reserved.
+#
+# liblouis  comes with ABSOLUTELY NO WARRANTY.
+#
+# This is free software, placed under the terms of the
+# GNU General Public License, as published by the Free Software
+# Foundation.  Please see the file COPYING for details.
+#
+# Maintained by Greg Kearney, gkearney@gmail.com
+#
+
+include chardefs.cti
+
+#include text_nabcc.dis All display opcodes
+
+include ukchardefs.cti All character definition opcodes
+include UEBC-g1.utb
+
+letter		\x0138		12345		LATIN SMALL LETTER KRA
+

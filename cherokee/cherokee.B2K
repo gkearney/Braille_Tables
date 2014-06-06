@@ -1,0 +1,71 @@
+,CHEROKEE SYLLABARY                     
+A      E      I      O      U      V    
+-DEMO                                   
+      GE      GI      GO    GU    GV    
+HA    HE      HI      HO    HU    HV    
+LA    LE      LI      LO    LU    LV    
+MA    ME      MI      MO    MU          
+NA HMA NAH                              
+      NE      NI      NO    NU    NV    
+QA    QE      QI      QO    QU    QV    
+S SA                                    
+      SE      SI      SO    SU    SV    
+-DEMO                                   
+      DE TE  DI TI    DO    DU    DV    
+DAL TLA                                 
+      TLE    TLI      TLO    TLU  TLV   
+TSA    TSE    TSI    TSO    TSU  TSV    
+WA    WE      WI      WO    WU    WV    
+YA    YE      YI      YO    YU    YV    
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+END OF BRAILLE TEXT
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+<!DOCTYPE brl2000b SYSTEM "brl2000b.dtd">
+<brl2000b version="2.227" date="2014/5/12 16:17:34" release="2014/5/9 0:27:20" license="Demo" features="PD">
+  <a cn="LangDef">
+    <l kw="ICEB,Unified English,Contracted" me="1" ad="[ICEB-UEBG2]"/>
+    <l kw="ICEB,Unified English,Uncontracted" me="1" ad="[ICEB-UEBG1]"/>
+    </a>
+  <a cn="Lang" v="1"/>
+  <a cn="MkSTags">
+    <t>Crtf</t>
+    <t>CNormal</t>
+    <t>Pp</t>
+    <t>Ctable</t>
+    <t>Prow</t>
+    <t>Icell</t>
+    </a>
+  <a cn="LineLength" v="40"/>
+  <a cn="PageLength" v="25"/>
+  <a cn="EmbossingMode" v="SingleSide"/>
+  <a cn="PageLevelRightIndent"/>
+  <p>
+    <a cn="Lang" v="2"/>
+    <a cn="MkS" v="1.2+3"/>
+    &01j;
+    </p>
+  <p>&111;&tab;&tab;&tab;&081;&tab;&tab;&tab;&0f1;&tab;&tab;&tab;&0m1;&tab;&tab;&tab;&0t1;&tab;&tab;&tab;&0A1;</p>
+  <p>&115;</p>
+  <p>&tab;&tab;&tab;&172;&tab;&tab;&tab;&0f2;&tab;&tab;&tab;&0n2;&tab;&tab;&0t2;&tab;&tab;&0z2;</p>
+  <p>&112;&tab;&tab;&072;&tab;&tab;&tab;&0f2;&tab;&tab;&tab;&0n2;&tab;&tab;&0t2;&tab;&tab;&0z2;</p>
+  <p>&112;&tab;&tab;&072;&tab;&tab;&tab;&0f2;&tab;&tab;&tab;&0n2;&tab;&tab;&0t2;&tab;&tab;&0z2;</p>
+  <p>&112;&tab;&tab;&072;&tab;&tab;&tab;&0f2;&tab;&tab;&tab;&0n2;&tab;&tab;&0t2;</p>
+  <p>&11a;</p>
+  <p>&tab;&tab;&tab;&172;&tab;&tab;&tab;&0f2;&tab;&tab;&tab;&0n2;&tab;&tab;&0t2;&tab;&tab;&0z2;</p>
+  <p>&112;&tab;&tab;&072;&tab;&tab;&tab;&0f2;&tab;&tab;&tab;&0n2;&tab;&tab;&0t2;&tab;&tab;&0z2;</p>
+  <p>&114;</p>
+  <p>&tab;&tab;&tab;&172;&tab;&tab;&tab;&0f2;&tab;&tab;&tab;&0n2;&tab;&tab;&0t2;&tab;&tab;&0z2;</p>
+  <p>&115;</p>
+  <p>&tab;&tab;&tab;&175;&tab;&0e5;&tab;&tab;&0n2;&tab;&tab;&0t2;&tab;&tab;&0z2;</p>
+  <p>&117;</p>
+  <p>&tab;&tab;&tab;&173;&tab;&tab;&0e3;&tab;&tab;&tab;&0n3;&tab;&tab;&0u3;&tab;&0z3;</p>
+  <p>&113;&tab;&tab;&083;&tab;&tab;&0f3;&tab;&tab;&0m3;&tab;&tab;&0t3;&tab;&0y3;</p>
+  <p>&112;&tab;&tab;&072;&tab;&tab;&tab;&0f2;&tab;&tab;&tab;&0n2;&tab;&tab;&0t2;&tab;&tab;&0z2;</p>
+  <p>&112;&tab;&tab;&072;&tab;&tab;&tab;&0f2;&tab;&tab;&tab;&0n2;&tab;&tab;&0t2;&tab;&tab;&0z2;&tab;</p>
+  <p/>
+  </brl2000b>
