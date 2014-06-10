@@ -1,0 +1,50 @@
+#jap#1#ja#Japanese Uncontracted#日本の非収縮
+
+
+# liblouis: Japanese Braille Code (Grade 1)
+#
+#Based on English UEB Grade 1
+#Modified by Greg Kearney <gkearney@gmail.com>
+#Used to display symbols, Unicode chars and other symbols used throughout uEB code.
+#
+#  This file is free software; you can redistribute it and/or modify it
+#   under the terms of the Lesser or Library GNU General Public License 
+#  as published by the
+#  Free Software Foundation; either version 3, or (at your option) any
+#  later version.
+# 
+#  This file is distributed in the hope that it will be useful, but
+#  WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+#  Library GNU General Public License for more details.
+#
+#  You should have received a copy of the Library GNU General Public 
+#  License along with this program; see the file COPYING.  If not, write 
+#  to
+#  the Free Software Foundation, 51 Franklin Street, Fifth Floor,
+#  Boston, MA 02110-1301, USA.
+#
+#  Maintained by John J. Boyer john.boyer@jjb-software.com
+
+# include en-ueb-chardefs.uti UEB specific char defs.
+# include litdigits6Dots.uti
+
+
+
+# Japanese specific
+
+
+letter \x3042 1
+letter \x3041 1
+letter \x3044 12
+letter \x3043 12
+letter \x3046 14
+letter \x3045 14
+letter \x3048 124
+letter \x3047 124
+letter \x304A 24
+letter \x3049 24
+letter \x304C 16
+letter \x304B 16
+letter \x304E 126
+letter \x304D 126
